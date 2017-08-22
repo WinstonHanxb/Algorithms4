@@ -5,6 +5,7 @@ package chatpter1.section3;
  * 使用六个栈来实现一个队列，其中队列的所有操作在最坏情况下也为O(1)
  * 算法的原理参见
  * https://ecommons.cornell.edu/bitstream/handle/1813/6273/80-433.pdf?sequence=1&isAllowed=y
+ * 或 http://www.cnblogs.com/ikesnowy/p/7157813.html
  */
 public class QueueFromStacks<Item> {
     private boolean isCopying;
