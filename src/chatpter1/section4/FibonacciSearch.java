@@ -1,6 +1,4 @@
 package chatpter1.section4;
-
-
 /**
  * 斐波那契查找，实现仅通过加减法来进行查找行为
  * <p>
