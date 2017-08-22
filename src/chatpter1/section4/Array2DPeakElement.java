@@ -194,9 +194,6 @@ public class Array2DPeakElement {
     }
 
 
-    public static void main(String[] args) {
-
-    }
 
 
 
