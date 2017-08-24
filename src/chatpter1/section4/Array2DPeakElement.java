@@ -2,6 +2,7 @@ package chatpter1.section4;
 
 /**
  * 给定一个2D的由不同整数组成的N*N矩阵，找出其中的局部最小项，要求时间复杂度与N成正比
+ * 注：只实现了算法的思想，并没有经过实际的用例测试
  */
 public class Array2DPeakElement {
     //矩阵的项类型
