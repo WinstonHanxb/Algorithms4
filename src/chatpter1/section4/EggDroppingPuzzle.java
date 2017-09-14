@@ -50,8 +50,8 @@ public class EggDroppingPuzzle {
     }
 
     public static void main(String[] args) {
-        EggDroppingPuzzle puzzle = new EggDroppingPuzzle(1000, 100);
-        System.out.println(puzzle.findF(1000, 100));
+        EggDroppingPuzzle puzzle = new EggDroppingPuzzle(2000, 100);
+        System.out.println(puzzle.findF(2000, 10));
 
     }
 }
