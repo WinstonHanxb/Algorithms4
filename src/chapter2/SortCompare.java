@@ -5,6 +5,7 @@ import chapter2.section2.Merge;
 import chapter2.section2.NaturalMerge;
 import chapter2.section2.OptimisedMerge;
 import chapter2.section3.BentlyMcllroyQuickSort;
+import chapter2.section4.HeapSort;
 import com.algs4.stdlib.StdOut;
 import com.algs4.stdlib.StdRandom;
 import com.algs4.stdlib.Stopwatch;
@@ -40,6 +41,9 @@ public class SortCompare {
             case "NaturalMerge":
                 NaturalMerge.sort(a);
                 return timer.elapsedTime();
+            case "HeapSort":
+                HeapSort.sort(a);
+                return timer.elapsedTime();
             default:
                 return timer.elapsedTime();
         }
@@ -59,9 +63,9 @@ public class SortCompare {
 
     public static void main(String[] args) {
         String alg1 = "BentlyMcllroyQuickSort";
-        String alg2 = "Shellv2";
-        double t1 = timeRandomInput(alg1,100000,10);
-        double t2 = timeRandomInput(alg2,100000,10);
+        String alg2 = "HeapSort";
+        double t1 = timeRandomInput(alg1,1000000,10);
+        double t2 = timeRandomInput(alg2,1000000,10);
         StdOut.printf("For %d random Doubles\n%s is ",100000,alg1);
         StdOut.printf("%.2f times faster than %s\n",t2/t1,alg2);
     }
