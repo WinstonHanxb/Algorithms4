@@ -17,7 +17,7 @@ public class GameOfLifeViewDrawer implements GameOfLifeView {
         StdDraw.setCanvasSize(width, height);
         StdDraw.setYscale(0, height);
         StdDraw.setXscale(0, width);
-        StdDraw.setPenColor(StdDraw.GRAY);
+        StdDraw.setPenColor(StdDraw.RED);
     }
 
     @Override

@@ -53,7 +53,7 @@ public class Array2DPeakElement {
     public int findLocalMinimumGeneral(int[][] a, Entry vortex, int x_start, int x_length, int y_start, int y_length) {
         Entry result = new Entry(0, 0, Integer.MAX_VALUE);
 
-        //TODO ???Not sure, could be all "=="
+
         if (x_length <= 3 || y_length <= 3) {
             for (int x = x_start; x < x_length; x++) {
                 if (result.value > a[x][vortex.y]) {
